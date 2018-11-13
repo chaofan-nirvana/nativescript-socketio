@@ -5,8 +5,8 @@ export declare class SocketIO extends Common {
     connect(): void;
     disconnect(): void;
     readonly connected: boolean;
-    on(event: string, callback: (...payload) => void): void;
-    once(event: string, callback: (...payload) => void): void;
+    on(event: string, callback: (...payload: any[]) => void): void;
+    once(event: string, callback: (...payload: any[]) => void): void;
     off(event: string): void;
     emit(event: string, ...payload: any[]): void;
     joinNamespace(nsp: string): SocketIO;
