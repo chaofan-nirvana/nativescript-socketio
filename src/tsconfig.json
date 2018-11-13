@@ -26,6 +26,7 @@
     "files": [
         "angular/index.ts",
         "index.ts",
+        "socketio.ts",
         "socketio.android.ts",
         "socketio.ios.ts",
         "socketio.common.ts"
